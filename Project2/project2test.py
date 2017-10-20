@@ -45,11 +45,11 @@ def get_umsi_data():
     #    names.update(d)
 
 def main():
-	#print(find_urls("http://www.google.com is a great site"))
-	#print(find_urls("I love looking at websites like http://etsy.com and http://instagram.com and lol.com and stuff"))
-	#print(find_urls("I love looking at websites like http://etsy and http://instagram.com and https://www.bbc.co.uk and stuff"))
-	#print(find_urls("the internet is awesome #worldwideweb"))
-	#print(find_urls("http://.c"))
+	print(find_urls("http://www.google.com is a great site"))
+	print(find_urls("I love looking at websites like http://etsy.com and http://instagram.com and lol.com and stuff"))
+	print(find_urls("I love looking at websites like http://etsy and http://instagram.com and https://www.bbc.co.uk and stuff"))
+	print(find_urls("the internet is awesome #worldwideweb"))
+	print(find_urls("http://.c"))
 	print(get_umsi_data())
 if __name__ == '__main__':
 	main()
